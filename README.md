@@ -4,105 +4,105 @@ Working off of the Leetcode [Top Interview 150 list](https://leetcode.com/studyp
 
 | List Number | Leetcode Number | Name | Difficulty | Completed |
 | ----------- | --------------- | ---- | ---------- | --------- |
-| 1 | 88 | Merge Sorted Array | Easy | [x] |
-| 2 | 27 | Remove Element | Easy | [ ] |
-| 3 | 26 | Remove Duplicates from Sorted Array | Easy | [ ] |
-| 4 | 80 | Remove Duplicates from Sorted Array II | Medium | [ ] |
-| 5 | 169 | Majority Element | Easy | [ ] |
-| 6 | 189 | Rotate Array | Medium | [ ] |
-| 7 | 121 | Best Time to Buy and Sell Stock | Easy | [ ] |
-| 8 | 122 | Best Time to Buy and Sell Stock II | Medium | [ ] |
-| 9 | 55 | Jump Game | Medium | [ ] |
-| 10 | 45 | Jump Game II | Medium | [ ] |
-| 11 | 274 | H-Index | Medium | [ ] |
-| 12 | 380 | Insert Delete GetRandom O(1) | Medium | [ ] |
-| 13 | 238 | Product of Array Except Self | Medium | [ ] |
-| 14 | 134 | Gas Station | Medium | [ ] |
-| 15 | 135 | Candy | Hard | [ ] |
-| 16 | 42 | Trapping Rain Water | Hard | [ ] |
-| 17 | 13 | Roman to Integer | Easy | [ ] |
-| 18 | 12 | Integer to Roman | Medium | [ ] |
-| 19 | 58 | Length of Last Word | Easy | [ ] |
-| 20 | 14 | Longest Common Prefix | Easy | [ ] |
-| 21 | 151 | Reverse Words in a String | Medium | [ ] |
-| 22 | 6 | Zigzag Conversion | Medium | [ ] |
-| 23 | 28 | Find the Index of the First Occurrence in a String | Easy | [ ] |
-| 24 | 68 | Text Justification | Hard | [ ] |
-| 25 | 125 | Valid Palindrome | Easy | [ ] |
-| 26 | 392 | Is Subsequence | Easy | [ ] |
-| 27 | 167 | Two Sum II - Input Array Is Sorted | Medium | [ ] |
-| 28 | 11 | Container With Most Water | Medium | [ ] |
-| 29 | 15 | 3Sum | Medium | [ ] |
-| 30 | 209 | Minimum Size Subarray Sum | Medium | [ ] |
-| 31 | 3 | Longest Substring Without Repeating Characters | Medium | [ ] |
-| 32 | 30 | Substring with Concatenation of All Words | Hard | [ ] |
-| 33 | 76 | Minimum Window Substring | Hard | [ ] |
-| 34 | 36 | Valid Sudoku | Medium | [ ] |
-| 35 | 54 | Spiral Matrix | Medium | [ ] |
-| 36 | 48 | Rotate Image | Medium | [ ] |
-| 37 | 73 | Set Matrix Zeroes | Medium | [ ] |
-| 38 | 289 | Game of Life | Medium | [ ] |
-| 39 | 383 | Ransom Note | Easy | [ ] |
-| 40 | 205 | Isomorphic Strings | Easy | [ ] |
-| 41 | 290 | Word Pattern | Easy | [ ] |
-| 42 | 242 | Valid Anagram | Easy | [ ] |
-| 43 | 49 | Group Anagrams | Medium | [ ] |
-| 44 | 1 | Two Sum | Easy | [ ] |
-| 45 | 202 | Happy Number | Easy | [ ] |
-| 46 | 219 | Contains Duplicate II | Easy | [ ] |
-| 47 | 128 | Longest Consecutive Sequence | Medium | [ ] |
-| 48 | 228 | Summary Ranges | Easy | [ ] |
-| 49 | 56 | Merge Intervals | Medium | [ ] |
-| 50 | 57 | Insert Interval | Medium | [ ] |
-| 51 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | [ ] |
-| 52 | 20 | Valid Parentheses | Easy | [ ] |
-| 53 | 71 | Simplify Path | Medium | [ ] |
-| 54 | 155 | Min Stack | Medium | [ ] |
-| 55 | 150 | Evaluate Reverse Polish Notation | Medium | [ ] |
-| 56 | 224 | Basic Calculator | Hard | [ ] |
-| 57 | 141 | Linked List Cycle | Easy | [ ] |
-| 58 | 2 | Add Two Numbers | Medium | [ ] |
-| 59 | 21 | Merge Two Sorted Lists | Easy | [ ] |
-| 60 | 138 | Copy List with Random Pointer | Medium | [ ] |
-| 61 | 92 | Reverse Linked List II | Medium | [ ] |
-| 62 | 25 | Reverse Nodes in k-Group | Hard | [ ] |
-| 63 | 19 | Remove Nth Node From End of List | Medium | [ ] |
-| 64 | 82 | Remove Duplicates from Sorted List II | Medium | [ ] |
-| 65 | 61 | Rotate List | Medium | [ ] |
-| 66 | 86 | Partition List | Medium | [ ] |
-| 67 | 146 | LRU Cache | Medium | [ ] |
-| 68 | 104 | Maximum Depth of Binary Tree | Easy | [ ] |
-| 69 | 100 | Same Tree | Easy | [ ] |
-| 70 | 226 | Invert Binary Tree | Easy | [ ] |
-| 71 | 101 | Symmetric Tree | Easy | [ ] |
-| 72 | 105 | Construct Binary Tree from Preorder and Inorder Traversal | Medium | [ ] |
-| 73 | 106 | Construct Binary Tree from Inorder and Postorder Traversal | Medium | [ ] |
-| 74 | 117 | Populating Next Right Pointers in Each Node II | Medium | [ ] |
-| 75 | 114 | Flatten Binary Tree to Linked List | Medium | [ ] |
-| 76 | 112 | Path Sum | Easy | [ ] |
-| 77 | 129 | Sum Root to Leaf Numbers | Medium | [ ] |
-| 78 | 124 | Binary Tree Maximum Path Sum | Hard | [ ] |
-| 79 | 173 | Binary Search Tree Iterator | Medium | [ ] |
-| 80 | 222 | Count Complete Tree Nodes | Easy | [ ] |
-| 81 | 236 | Lowest Common Ancestor of a Binary Tree | Medium | [ ] |
-| 82 | 199 | Binary Tree Right Side View | Medium | [ ] |
-| 83 | 637 | Average of Levels in Binary Tree | Easy | [ ] |
-| 84 | 102 | Binary Tree Level Order Traversal | Medium | [ ] |
-| 85 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | [ ] |
-| 86 | 530 | Minimum Absolute Difference in BST | Easy | [ ] |
-| 87 | 230 | Kth Smallest Element in a BST | Medium | [ ] |
-| 88 | 98 | Validate Binary Search Tree | Medium | [ ] |
-| 89 | 200 | Number of Islands | Medium | [ ] |
-| 90 | 130 | Surrounded Regions | Medium | [ ] |
-| 91 | 133 | Clone Graph | Medium | [ ] |
-| 92 | 399 | Evaluate Division | Medium | [ ] |
-| 93 | 207 | Course Schedule | Medium | [ ] |
-| 94 | 210 | Course Schedule II | Medium | [ ] |
-| 95 | 909 | Snakes and Ladders | Medium | [ ] |
-| 96 | 433 | Minimum Genetic Mutation | Medium | [ ] |
-| 97 | 127 | Word Ladder | Hard | [ ] |
-| 98 | 208 | Implement Trie (Prefix Tree) | Medium | [ ] |
-| 99 | 211 | Design Add and Search Words Data Structure | Medium | [ ] |
+| 001 | 88 | Merge Sorted Array | Easy | [x] |
+| 002 | 27 | Remove Element | Easy | [ ] |
+| 003 | 26 | Remove Duplicates from Sorted Array | Easy | [ ] |
+| 004 | 80 | Remove Duplicates from Sorted Array II | Medium | [ ] |
+| 005 | 169 | Majority Element | Easy | [ ] |
+| 006 | 189 | Rotate Array | Medium | [ ] |
+| 007 | 121 | Best Time to Buy and Sell Stock | Easy | [ ] |
+| 008 | 122 | Best Time to Buy and Sell Stock II | Medium | [ ] |
+| 009 | 55 | Jump Game | Medium | [ ] |
+| 010 | 45 | Jump Game II | Medium | [ ] |
+| 011 | 274 | H-Index | Medium | [ ] |
+| 012 | 380 | Insert Delete GetRandom O(1) | Medium | [ ] |
+| 013 | 238 | Product of Array Except Self | Medium | [ ] |
+| 014 | 134 | Gas Station | Medium | [ ] |
+| 015 | 135 | Candy | Hard | [ ] |
+| 016 | 42 | Trapping Rain Water | Hard | [ ] |
+| 017 | 13 | Roman to Integer | Easy | [ ] |
+| 018 | 12 | Integer to Roman | Medium | [ ] |
+| 019 | 58 | Length of Last Word | Easy | [ ] |
+| 020 | 14 | Longest Common Prefix | Easy | [ ] |
+| 021 | 151 | Reverse Words in a String | Medium | [ ] |
+| 022 | 6 | Zigzag Conversion | Medium | [ ] |
+| 023 | 28 | Find the Index of the First Occurrence in a String | Easy | [ ] |
+| 024 | 68 | Text Justification | Hard | [ ] |
+| 025 | 125 | Valid Palindrome | Easy | [ ] |
+| 026 | 392 | Is Subsequence | Easy | [ ] |
+| 027 | 167 | Two Sum II - Input Array Is Sorted | Medium | [ ] |
+| 028 | 11 | Container With Most Water | Medium | [ ] |
+| 029 | 15 | 3Sum | Medium | [ ] |
+| 030 | 209 | Minimum Size Subarray Sum | Medium | [ ] |
+| 031 | 3 | Longest Substring Without Repeating Characters | Medium | [ ] |
+| 032 | 30 | Substring with Concatenation of All Words | Hard | [ ] |
+| 033 | 76 | Minimum Window Substring | Hard | [ ] |
+| 034 | 36 | Valid Sudoku | Medium | [ ] |
+| 035 | 54 | Spiral Matrix | Medium | [ ] |
+| 036 | 48 | Rotate Image | Medium | [ ] |
+| 037 | 73 | Set Matrix Zeroes | Medium | [ ] |
+| 038 | 289 | Game of Life | Medium | [ ] |
+| 039 | 383 | Ransom Note | Easy | [ ] |
+| 040 | 205 | Isomorphic Strings | Easy | [ ] |
+| 041 | 290 | Word Pattern | Easy | [ ] |
+| 042 | 242 | Valid Anagram | Easy | [ ] |
+| 043 | 49 | Group Anagrams | Medium | [ ] |
+| 044 | 1 | Two Sum | Easy | [ ] |
+| 045 | 202 | Happy Number | Easy | [ ] |
+| 046 | 219 | Contains Duplicate II | Easy | [ ] |
+| 047 | 128 | Longest Consecutive Sequence | Medium | [ ] |
+| 048 | 228 | Summary Ranges | Easy | [ ] |
+| 049 | 56 | Merge Intervals | Medium | [ ] |
+| 050 | 57 | Insert Interval | Medium | [ ] |
+| 051 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | [ ] |
+| 052 | 20 | Valid Parentheses | Easy | [ ] |
+| 053 | 71 | Simplify Path | Medium | [ ] |
+| 054 | 155 | Min Stack | Medium | [ ] |
+| 055 | 150 | Evaluate Reverse Polish Notation | Medium | [ ] |
+| 056 | 224 | Basic Calculator | Hard | [ ] |
+| 057 | 141 | Linked List Cycle | Easy | [ ] |
+| 058 | 2 | Add Two Numbers | Medium | [ ] |
+| 059 | 21 | Merge Two Sorted Lists | Easy | [ ] |
+| 060 | 138 | Copy List with Random Pointer | Medium | [ ] |
+| 061 | 92 | Reverse Linked List II | Medium | [ ] |
+| 062 | 25 | Reverse Nodes in k-Group | Hard | [ ] |
+| 063 | 19 | Remove Nth Node From End of List | Medium | [ ] |
+| 064 | 82 | Remove Duplicates from Sorted List II | Medium | [ ] |
+| 065 | 61 | Rotate List | Medium | [ ] |
+| 066 | 86 | Partition List | Medium | [ ] |
+| 067 | 146 | LRU Cache | Medium | [ ] |
+| 068 | 104 | Maximum Depth of Binary Tree | Easy | [ ] |
+| 069 | 100 | Same Tree | Easy | [ ] |
+| 070 | 226 | Invert Binary Tree | Easy | [ ] |
+| 071 | 101 | Symmetric Tree | Easy | [ ] |
+| 072 | 105 | Construct Binary Tree from Preorder and Inorder Traversal | Medium | [ ] |
+| 073 | 106 | Construct Binary Tree from Inorder and Postorder Traversal | Medium | [ ] |
+| 074 | 117 | Populating Next Right Pointers in Each Node II | Medium | [ ] |
+| 075 | 114 | Flatten Binary Tree to Linked List | Medium | [ ] |
+| 076 | 112 | Path Sum | Easy | [ ] |
+| 077 | 129 | Sum Root to Leaf Numbers | Medium | [ ] |
+| 078 | 124 | Binary Tree Maximum Path Sum | Hard | [ ] |
+| 079 | 173 | Binary Search Tree Iterator | Medium | [ ] |
+| 080 | 222 | Count Complete Tree Nodes | Easy | [ ] |
+| 081 | 236 | Lowest Common Ancestor of a Binary Tree | Medium | [ ] |
+| 082 | 199 | Binary Tree Right Side View | Medium | [ ] |
+| 083 | 637 | Average of Levels in Binary Tree | Easy | [ ] |
+| 084 | 102 | Binary Tree Level Order Traversal | Medium | [ ] |
+| 085 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | [ ] |
+| 086 | 530 | Minimum Absolute Difference in BST | Easy | [ ] |
+| 087 | 230 | Kth Smallest Element in a BST | Medium | [ ] |
+| 088 | 98 | Validate Binary Search Tree | Medium | [ ] |
+| 089 | 200 | Number of Islands | Medium | [ ] |
+| 090 | 130 | Surrounded Regions | Medium | [ ] |
+| 091 | 133 | Clone Graph | Medium | [ ] |
+| 092 | 399 | Evaluate Division | Medium | [ ] |
+| 093 | 207 | Course Schedule | Medium | [ ] |
+| 094 | 210 | Course Schedule II | Medium | [ ] |
+| 095 | 909 | Snakes and Ladders | Medium | [ ] |
+| 096 | 433 | Minimum Genetic Mutation | Medium | [ ] |
+| 097 | 127 | Word Ladder | Hard | [ ] |
+| 098 | 208 | Implement Trie (Prefix Tree) | Medium | [ ] |
+| 099 | 211 | Design Add and Search Words Data Structure | Medium | [ ] |
 | 100 | 212 | Word Search II | Hard | [ ] |
 | 101 | 17 | Letter Combinations of a Phone Number | Medium | [ ] |
 | 102 | 77 | Combinations | Medium | [ ] |
