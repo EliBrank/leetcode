@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const removeDuplicates = function(nums) {
+export const removeDuplicates = function(nums) {
   const numsObj = {};
   const numsFiltered = [];
   let numsCount = 0;
@@ -29,16 +29,3 @@ const removeDuplicates = function(nums) {
 
   return numsCount;
 };
-
-
-const testNums = [1,1,1,2,2,3];
-console.log('CASE 1:');
-console.log('number of significant entries:', removeDuplicates(testNums));
-console.log('testNums array:', testNums);
-
-console.log();
-
-const testNums2 = [0,0,1,1,1,1,2,3,3];
-console.log('CASE 2:');
-console.log('number of significant entries:', removeDuplicates(testNums2));
-console.log('testNums2 array:', testNums2);
