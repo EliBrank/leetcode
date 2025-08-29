@@ -5,10 +5,10 @@ Working off of the Leetcode [Top Interview 150 list](https://leetcode.com/studyp
 | List Number | Leetcode Number | Name | Difficulty | Completed |
 | ----------- | --------------- | ---- | ---------- | --------- |
 | 001 | 88 | Merge Sorted Array | Easy | :white_check_mark: |
-| 002 | 27 | Remove Element | Easy | :white_large_square: |
-| 003 | 26 | Remove Duplicates from Sorted Array | Easy | :white_large_square: |
-| 004 | 80 | Remove Duplicates from Sorted Array II | Medium | :white_large_square: |
-| 005 | 169 | Majority Element | Easy | :white_large_square: |
+| 002 | 27 | Remove Element | Easy | :white_check_mark: |
+| 003 | 26 | Remove Duplicates from Sorted Array | Easy | :white_check_mark: |
+| 004 | 80 | Remove Duplicates from Sorted Array II | Medium | :white_check_mark: |
+| 005 | 169 | Majority Element | Easy | :white_check_mark: |
 | 006 | 189 | Rotate Array | Medium | :white_large_square: |
 | 007 | 121 | Best Time to Buy and Sell Stock | Easy | :white_large_square: |
 | 008 | 122 | Best Time to Buy and Sell Stock II | Medium | :white_large_square: |
