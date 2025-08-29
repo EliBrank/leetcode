@@ -32,11 +32,13 @@ const removeDuplicates = function(nums) {
 
 
 const testNums = [1,1,1,2,2,3];
-console.log('Case 1:', removeDuplicates(testNums));
+console.log('CASE 1:');
+console.log('number of significant entries:', removeDuplicates(testNums));
 console.log('testNums array:', testNums);
 
 console.log();
 
 const testNums2 = [0,0,1,1,1,1,2,3,3];
-console.log('Case 2:', removeDuplicates(testNums2));
+console.log('CASE 2:');
+console.log('number of significant entries:', removeDuplicates(testNums2));
 console.log('testNums2 array:', testNums2);
