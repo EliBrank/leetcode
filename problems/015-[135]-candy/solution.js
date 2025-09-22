@@ -5,7 +5,9 @@
 export const candy = function(ratings) {
   if (ratings.length === 1) return 1;
 
+  // Create copy of ratings array with each value init. to 1
   let candyGiven = Array(ratings.length).fill(1);
+  // First pass: move left to right
   for (let i = 1; i < ratings.length; i++) {
     const current = ratings[i];
     const left = ratings[i - 1];
@@ -15,6 +17,7 @@ export const candy = function(ratings) {
     }
   }
 
+  // Second pass: move right to left
   for (let i = (ratings.length - 2); i >= 0; i--) {
     const current = ratings[i];
     const right = ratings[i + 1];
@@ -24,6 +27,7 @@ export const candy = function(ratings) {
     }
   }
 
+  // Sum all values within candyGiven
   return candyGiven.reduce((a, b) => a + b);
 };
 
