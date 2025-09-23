@@ -6,6 +6,8 @@
 export const canCompleteCircuit = function(gas, cost) {
   const len = gas.length;
   for (let i = 0; i < len; i++) {
+    if (gas[i] < cost[i]) continue;
+
     let tank = 0;
     for (let j = i; j < len + i; j++) {
       tank += gas[j % len];
