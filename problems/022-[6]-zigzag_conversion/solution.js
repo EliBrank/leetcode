@@ -4,28 +4,34 @@
  * @return {string}
  */
 export const convert = function(s, numRows) {
-  let jumpDistance = numRows * 2 - 2;
-  let diff = 0;
-  const res = s[0];
+  let jump1 = (numRows - 1) * 2;
+  let jump2 = 0;
+  const res = [];
 
-  for (let i = 0; i < s.length; i++) {
+  if (numRows === 1) return s;
+
+  // i represents starting indices (each value in first column)
+  for (let i = 0; i < numRows; i++) {
+    // j loop iterates through each row
     let j = i;
+    // Stop j loop if it goes out of bounds
     while (j < s.length) {
-      if (j < s.length && (jumpDistance !== 0)) {
-        res.concat(s[j]);
-        console.log('j:', j);
-        console.log('s[j]:', s[j]);
-        console.log();
-        j += jumpDistance;
+      // Also do bounds check and zero check for each jump before pushing
+      if (j < s.length && (jump1 !== 0)) {
+        res.push(s[j]);
+        j += jump1;
       }
-      if (j < s.length && (diff !== 0)) {
-        res.concat(s[j]);
-        j += diff;
+      if (j < s.length && (jump2 !== 0)) {
+        res.push(s[j]);
+        j += jump2;
       }
     }
-    diff += 2;
-    jumpDistance -= 2;
+    jump1 -= 2;
+    jump2 += 2;
   }
+
+  // Recombine as string
+  return res.join('');
 };
 
 console.log('CASE 1:');
@@ -37,4 +43,3 @@ console.log('CASE 2:');
 const testString2 = "PAYPALISHIRING";
 const testNumRows2 = 4;
 console.log(convert(testString2, testNumRows2));
-
