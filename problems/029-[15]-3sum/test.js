@@ -1,5 +1,7 @@
-const a = undefined;
+const a = 1;
+const b = 2;
+const c = 3;
 
-if (!a) {
-  console.log('a is true?');
-}
+const d = [a,b,c].join();
+
+console.log(typeof d);
