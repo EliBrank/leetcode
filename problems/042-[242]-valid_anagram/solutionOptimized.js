@@ -6,18 +6,15 @@
 export const isAnagram = function(s, t) {
   if (s.length !== t.length) return false;
 
-  const sMap = new Map();
-  const tMap = new Map();
+  const alphabetMap = Array(26).fill(0);
 
   for (let i = 0; i < s.length; i++) {
-    sMap.set(s[i], (sMap.get(s[i]) ?? 0) + 1);
+    alphabetMap[s.charCodeAt(i) - 97]++;
+    alphabetMap[t.charCodeAt(i) - 97]--;
   }
 
-  for (let i = 0; i < t.length; i++) {
-    tMap.set(t[i], (tMap.get(t[i]) ?? 0) + 1);
-    if (!sMap.get(t[i]) || tMap.get(t[i]) > sMap.get(t[i])) {
-      return false;
-    }
+  for (let i = 0; i < 26; i++) {
+    if (alphabetMap[i] !== 0) return false;
   }
 
   return true;
