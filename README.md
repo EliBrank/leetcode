@@ -9,43 +9,43 @@ Working off of the Leetcode [Top Interview 150 list](https://leetcode.com/studyp
 | 003 | 26 | Remove Duplicates from Sorted Array | Easy | :white_check_mark: |
 | 004 | 80 | Remove Duplicates from Sorted Array II | Medium | :white_check_mark: |
 | 005 | 169 | Majority Element | Easy | :white_check_mark: |
-| 006 | 189 | Rotate Array | Medium | :white_large_square: |
-| 007 | 121 | Best Time to Buy and Sell Stock | Easy | :white_large_square: |
-| 008 | 122 | Best Time to Buy and Sell Stock II | Medium | :white_large_square: |
-| 009 | 55 | Jump Game | Medium | :white_large_square: |
-| 010 | 45 | Jump Game II | Medium | :white_large_square: |
-| 011 | 274 | H-Index | Medium | :white_large_square: |
-| 012 | 380 | Insert Delete GetRandom O(1) | Medium | :white_large_square: |
-| 013 | 238 | Product of Array Except Self | Medium | :white_large_square: |
-| 014 | 134 | Gas Station | Medium | :white_large_square: |
-| 015 | 135 | Candy | Hard | :white_large_square: |
-| 016 | 42 | Trapping Rain Water | Hard | :white_large_square: |
-| 017 | 13 | Roman to Integer | Easy | :white_large_square: |
-| 018 | 12 | Integer to Roman | Medium | :white_large_square: |
-| 019 | 58 | Length of Last Word | Easy | :white_large_square: |
-| 020 | 14 | Longest Common Prefix | Easy | :white_large_square: |
-| 021 | 151 | Reverse Words in a String | Medium | :white_large_square: |
-| 022 | 6 | Zigzag Conversion | Medium | :white_large_square: |
-| 023 | 28 | Find the Index of the First Occurrence in a String | Easy | :white_large_square: |
-| 024 | 68 | Text Justification | Hard | :white_large_square: |
-| 025 | 125 | Valid Palindrome | Easy | :white_large_square: |
-| 026 | 392 | Is Subsequence | Easy | :white_large_square: |
-| 027 | 167 | Two Sum II - Input Array Is Sorted | Medium | :white_large_square: |
-| 028 | 11 | Container With Most Water | Medium | :white_large_square: |
-| 029 | 15 | 3Sum | Medium | :white_large_square: |
-| 030 | 209 | Minimum Size Subarray Sum | Medium | :white_large_square: |
-| 031 | 3 | Longest Substring Without Repeating Characters | Medium | :white_large_square: |
-| 032 | 30 | Substring with Concatenation of All Words | Hard | :white_large_square: |
-| 033 | 76 | Minimum Window Substring | Hard | :white_large_square: |
-| 034 | 36 | Valid Sudoku | Medium | :white_large_square: |
-| 035 | 54 | Spiral Matrix | Medium | :white_large_square: |
-| 036 | 48 | Rotate Image | Medium | :white_large_square: |
-| 037 | 73 | Set Matrix Zeroes | Medium | :white_large_square: |
-| 038 | 289 | Game of Life | Medium | :white_large_square: |
-| 039 | 383 | Ransom Note | Easy | :white_large_square: |
+| 006 | 189 | Rotate Array | Medium | :white_check_mark: |
+| 007 | 121 | Best Time to Buy and Sell Stock | Easy | :white_check_mark: |
+| 008 | 122 | Best Time to Buy and Sell Stock II | Medium | :white_check_mark: |
+| 009 | 55 | Jump Game | Medium | :white_check_mark: |
+| 010 | 45 | Jump Game II | Medium | :white_check_mark: |
+| 011 | 274 | H-Index | Medium | :white_check_mark: |
+| 012 | 380 | Insert Delete GetRandom O(1) | Medium | :white_check_mark: |
+| 013 | 238 | Product of Array Except Self | Medium | :white_check_mark: |
+| 014 | 134 | Gas Station | Medium | :white_check_mark: |
+| 015 | 135 | Candy | Hard | :white_check_mark: |
+| 016 | 42 | Trapping Rain Water | Hard | :white_check_mark: |
+| 017 | 13 | Roman to Integer | Easy | :white_check_mark: |
+| 018 | 12 | Integer to Roman | Medium | :white_check_mark: |
+| 019 | 58 | Length of Last Word | Easy | :white_check_mark: |
+| 020 | 14 | Longest Common Prefix | Easy | :white_check_mark: |
+| 021 | 151 | Reverse Words in a String | Medium | :white_check_mark: |
+| 022 | 6 | Zigzag Conversion | Medium | :white_check_mark: |
+| 023 | 28 | Find the Index of the First Occurrence in a String | Easy | :white_check_mark: |
+| 024 | 68 | Text Justification | Hard | :white_check_mark: |
+| 025 | 125 | Valid Palindrome | Easy | :white_check_mark: |
+| 026 | 392 | Is Subsequence | Easy | :white_check_mark: |
+| 027 | 167 | Two Sum II - Input Array Is Sorted | Medium | :white_check_mark: |
+| 028 | 11 | Container With Most Water | Medium | :white_check_mark: |
+| 029 | 15 | 3Sum | Medium | :white_check_mark: |
+| 030 | 209 | Minimum Size Subarray Sum | Medium | :white_check_mark: |
+| 031 | 3 | Longest Substring Without Repeating Characters | Medium | :white_check_mark: |
+| 032 | 30 | Substring with Concatenation of All Words | Hard | :white_check_mark: |
+| 033 | 76 | Minimum Window Substring | Hard | :white_check_mark: |
+| 034 | 36 | Valid Sudoku | Medium | :white_check_mark: |
+| 035 | 54 | Spiral Matrix | Medium | :white_check_mark: |
+| 036 | 48 | Rotate Image | Medium | :white_check_mark: |
+| 037 | 73 | Set Matrix Zeroes | Medium | :white_check_mark: |
+| 038 | 289 | Game of Life | Medium | :white_check_mark: |
+| 039 | 383 | Ransom Note | Easy | :white_check_mark: |
 | 040 | 205 | Isomorphic Strings | Easy | :white_large_square: |
-| 041 | 290 | Word Pattern | Easy | :white_large_square: |
-| 042 | 242 | Valid Anagram | Easy | :white_large_square: |
+| 041 | 290 | Word Pattern | Easy | :white_check_mark: |
+| 042 | 242 | Valid Anagram | Easy | :white_check_mark: |
 | 043 | 49 | Group Anagrams | Medium | :white_large_square: |
 | 044 | 1 | Two Sum | Easy | :white_large_square: |
 | 045 | 202 | Happy Number | Easy | :white_large_square: |
