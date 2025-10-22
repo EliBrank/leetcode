@@ -46,7 +46,7 @@ Working off of the Leetcode [Top Interview 150 list](https://leetcode.com/studyp
 | 040 | 205 | Isomorphic Strings | Easy | :white_large_square: |
 | 041 | 290 | Word Pattern | Easy | :white_check_mark: |
 | 042 | 242 | Valid Anagram | Easy | :white_check_mark: |
-| 043 | 49 | Group Anagrams | Medium | :white_large_square: |
+| 043 | 49 | Group Anagrams | Medium | :white_check_mark: |
 | 044 | 1 | Two Sum | Easy | :white_large_square: |
 | 045 | 202 | Happy Number | Easy | :white_large_square: |
 | 046 | 219 | Contains Duplicate II | Easy | :white_large_square: |
