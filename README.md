@@ -47,11 +47,11 @@ Working off of the Leetcode [Top Interview 150 list](https://leetcode.com/studyp
 | 041 | 290 | Word Pattern | Easy | :white_check_mark: |
 | 042 | 242 | Valid Anagram | Easy | :white_check_mark: |
 | 043 | 49 | Group Anagrams | Medium | :white_check_mark: |
-| 044 | 1 | Two Sum | Easy | :white_large_square: |
-| 045 | 202 | Happy Number | Easy | :white_large_square: |
-| 046 | 219 | Contains Duplicate II | Easy | :white_large_square: |
-| 047 | 128 | Longest Consecutive Sequence | Medium | :white_large_square: |
-| 048 | 228 | Summary Ranges | Easy | :white_large_square: |
+| 044 | 1 | Two Sum | Easy | :white_check_mark: |
+| 045 | 202 | Happy Number | Easy | :white_check_mark: |
+| 046 | 219 | Contains Duplicate II | Easy | :white_check_mark: |
+| 047 | 128 | Longest Consecutive Sequence | Medium | :white_check_mark: |
+| 048 | 228 | Summary Ranges | Easy | :white_check_mark: |
 | 049 | 56 | Merge Intervals | Medium | :white_large_square: |
 | 050 | 57 | Insert Interval | Medium | :white_large_square: |
 | 051 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | :white_large_square: |
