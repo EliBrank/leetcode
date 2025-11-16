@@ -3,33 +3,26 @@
  * @return {number}
  */
 export const longestConsecutive = function(nums) {
-  const baseNumSet = new Set();
-  const alreadyEvaluated = new Set();
-  let maxLength = 0;
+  let maxLength = (nums.length > 0) ? 1 : 0;
 
   // First, build the base set of numbers for fast lookup
-  for (const num of nums) {
-    baseNumSet.add(num);
-  }
+  const numSet = new Set(nums);
 
-  for (const num of nums) {
-    // Skip to next num if already evaluated
-    if (alreadyEvaluated.has(num)) continue;
+  for (const num of numSet) {
+    // A value before num, sequentially, means num is not the start of a sequence
+    let isStartOfSeq = (numSet.has(num - 1)) ? false : true;
+
+    if (!isStartOfSeq) continue;
 
     // Iterate through each number that would follow 'num'
-    let nextNumInSeq = num;
-    // If it's in the baseNumSet, it's part of a valid consecutive sequence
-    while (baseNumSet.has(nextNumInSeq)) {
-      // Also keep track of numbers that are already evaluated
-      //
-      // e.g. On subsequent loops, for a sequence of 1,2,3 from [1,2,3,100,200]
-      // 2 and 3 would not need to be evaluated again as num in this for loop
-      alreadyEvaluated.add(nextNumInSeq);
+    let nextNumInSeq = num + 1;
+    let currentLength = 1;
+    // If it's in the numSet, it's part of a valid consecutive sequence
+    while (numSet.has(nextNumInSeq)) {
       nextNumInSeq++;
+      currentLength++
     }
-
-    const currentSeqLength = nextNumInSeq - num;
-    maxLength = Math.max(maxLength, currentSeqLength);
+    maxLength = Math.max(maxLength, currentLength);
   }
 
   return maxLength;
